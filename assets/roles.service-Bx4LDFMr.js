@@ -1,0 +1,1 @@
+import{h as o}from"./index-BFxKREHm.js";const r="/roles/",$={list:t=>o.get(r,{params:t}),get:t=>o.get(`${r}${t}/`),create:(t,e={})=>o.post(r,t,e),update:(t,e,p={})=>o.put(`${r}${t}/`,e,p),patch:(t,e,p={})=>o.patch(`${r}${t}/`,e,p),remove:(t,e={})=>o.delete(`${r}${t}/`,e)};export{$ as r};

@@ -1,0 +1,1 @@
+import{h as t}from"./index-BFxKREHm.js";const i="/hrm/employees/",p={list:e=>t.get(i,{params:e}),listLightweight:e=>t.get(`${i}lightweight/`,{params:e}),get:e=>t.get(`${i}${e}/`),create:(e,o={})=>t.post(i,e,o),update:(e,o,s={})=>t.put(`${i}${e}/`,o,s),remove:(e,o={})=>t.delete(`${i}${e}/`,o)};export{p as e};
