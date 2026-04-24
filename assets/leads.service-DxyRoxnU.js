@@ -1,0 +1,1 @@
+import{h as t}from"./index-BzFTg4wA.js";const s="/crm/leads/",r={list:e=>t.get(s,{params:e}),create:e=>t.post(s,e),update:(e,a)=>t.patch(`${s}${e}/`,a),remove:e=>t.delete(`${s}${e}/`)};export{r as l};
