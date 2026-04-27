@@ -1,1 +1,0 @@
-import{h as t}from"./index-DYdqGQGc.js";const o="/inventory/vendors/",p={list:e=>t.get(o,{params:e}),dropdown:e=>t.get(`${o}dropdown/`,{params:e}),get:e=>t.get(`${o}${e}/`),create:(e,r={})=>t.post(o,e,r),update:(e,r,n={})=>t.patch(`${o}${e}/`,r,n),remove:(e,r={})=>t.delete(`${o}${e}/`,r)};export{p as v};
