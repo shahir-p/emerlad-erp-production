@@ -1,0 +1,1 @@
+import{h as e}from"./index-DYdqGQGc.js";const s="/crm/customers/",r={list:t=>e.get(s,{params:t}),create:t=>e.post(s,t),update:(t,c)=>e.patch(`${s}${t}/`,c),remove:t=>e.delete(`${s}${t}/`)};export{r as c};
