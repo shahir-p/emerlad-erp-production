@@ -1,0 +1,1 @@
+import{h as s}from"./index-CKzjrK1Y.js";const r="/users/",i={list:(e,t={})=>s.get(r,{params:e,...t}),get:(e,t={})=>s.get(`${r}${e}/`,t),create:(e,t={})=>s.post(r,e,t),update:(e,t,a={})=>s.put(`${r}${e}/`,t,a),remove:(e,t={})=>s.delete(`${r}${e}/`,t),checkUsernameAvailability:(e,t={})=>s.get("/check-username",{params:{username:e},...t})};export{i as u};
