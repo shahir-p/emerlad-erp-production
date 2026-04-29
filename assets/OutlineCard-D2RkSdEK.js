@@ -1,0 +1,1 @@
+import{r as t,C as a,j as d}from"./index-CfGLtstz.js";import{C as i}from"./Card-Bidl-tkB.js";const m=({children:r,className:s})=>{const{isCardShadow:o,isBorderRadius:e}=t.useContext(a);return d.jsx(i,{className:`card ${s}  border border-ld `,style:{borderRadius:`${e}px`},children:r})};export{m as O};

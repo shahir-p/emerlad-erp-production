@@ -1,0 +1,1 @@
+import{r as a,C as r,j as o,L as e}from"./index-CfGLtstz.js";import{B as s}from"./logo-icon-CIhFJcf6.js";const c=()=>{const{activeMode:t}=a.useContext(r);return o.jsx(e,{to:"/",children:t==="light"?o.jsx("img",{src:s,alt:"logo",className:"block mx-auto"}):o.jsx("img",{src:s,alt:"logo",className:"block mx-auto"})})};export{c as F};

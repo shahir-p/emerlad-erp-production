@@ -1,0 +1,1 @@
+import{c as e}from"./createReactComponent-D4LhIROw.js";var t=e("menu-2","IconMenu2",[["path",{d:"M4 6l16 0",key:"svg-0"}],["path",{d:"M4 12l16 0",key:"svg-1"}],["path",{d:"M4 18l16 0",key:"svg-2"}]]);export{t as I};

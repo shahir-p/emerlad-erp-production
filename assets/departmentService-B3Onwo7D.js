@@ -1,0 +1,1 @@
+import{a as t}from"./axiosConfig-DTy01EnB.js";import{a as e}from"./apiService-Cm6WsE_Q.js";const n=e("Department"),s={...n,getInputUnits:async()=>t.get("/Department/input-unit"),getOutputUnits:async()=>t.get("/Department/output-unit"),getUsers:async()=>t.get("/Department/users")};export{s as d};

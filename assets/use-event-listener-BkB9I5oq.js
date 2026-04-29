@@ -1,0 +1,1 @@
+import{r as f}from"./index-CfGLtstz.js";import{a as u}from"./render-CZr0IE3h.js";function m(r,e,i,t){let n=u(i);f.useEffect(()=>{r=r??window;function o(s){n.current(s)}return r.addEventListener(e,o,t),()=>r.removeEventListener(e,o,t)},[r,e,t])}export{m as E};

@@ -1,0 +1,1 @@
+import{a as n}from"./axiosConfig-DTy01EnB.js";const c={getUserRoleInfo:async()=>n.get("/Common/user-role-info")},s=e=>({getAll:async t=>n.get(`/${e}`,{params:t}),getById:async t=>n.get(`/${e}/${t}`),create:async t=>n.post(`/${e}`,t),update:async(t,a)=>n.put(`/${e}/${t}`,a),patch:async(t,a)=>n.patch(`/${e}/${t}`,a),delete:async t=>n.delete(`/${e}/${t}`)});export{s as a,c};

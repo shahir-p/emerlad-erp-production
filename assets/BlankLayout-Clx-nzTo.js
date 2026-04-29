@@ -1,0 +1,1 @@
+import{j as s,O as t}from"./index-CfGLtstz.js";import{T as a,S as o}from"./TitleManager-BZUJ3Wi8.js";const l=()=>s.jsxs(s.Fragment,{children:[s.jsx(a,{}),s.jsx(o,{children:s.jsx(t,{})})]});export{l as default};
