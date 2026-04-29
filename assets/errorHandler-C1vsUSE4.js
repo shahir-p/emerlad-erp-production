@@ -1,0 +1,1 @@
+const i=(e,s="")=>{const r=e?.data?.errors;if(r&&typeof r=="object"){if(r.detail)return r.detail;const n=Object.entries(r);if(n.length>0)return n.map(([o,t])=>{const a=Array.isArray(t)?t[0]:t;return`${o}: ${a}`}).join(" | ")}return e?.data?.message||e?.message||"An error occurred"};export{i as h};

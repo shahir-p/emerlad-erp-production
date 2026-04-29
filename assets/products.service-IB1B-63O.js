@@ -1,0 +1,1 @@
+import{h as t}from"./index-y3ioGyR5.js";const o={SEARCH_DROPDOWN:"/inventory/products/dropdown/",DETAILS:r=>`/inventory/products/${r}/`},n={searchDropdown:r=>t.get(o.SEARCH_DROPDOWN,{params:{search:r}}),getProductDetails:r=>t.get(o.DETAILS(r))};export{n as p};
