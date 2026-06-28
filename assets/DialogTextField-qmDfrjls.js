@@ -1,1 +1,0 @@
-import{j as s,S as n,T as x,e as o}from"./index-BxiqR9Xx.js";function l({label:t,required:a=!1,...e}){const i=a?`${t} *`:t;return s.jsxs(n,{spacing:.75,children:[s.jsx(x,{variant:"subtitle2",children:i}),s.jsx(o,{required:a,...e})]})}export{l as D};
