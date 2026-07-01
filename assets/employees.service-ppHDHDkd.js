@@ -1,0 +1,1 @@
+import{h as t}from"./index-BjN_OFts.js";const s="/hrm/employees/",g={list:e=>t.get(s,{params:e}),listLightweight:e=>t.get("/hrm/employees-lightweight/",{params:e}),get:e=>t.get(`${s}${e}/`),create:(e,o={})=>t.post(s,e,o),update:(e,o,i={})=>t.put(`${s}${e}/`,o,i),remove:(e,o={})=>t.delete(`${s}${e}/`,o)};export{g as e};
