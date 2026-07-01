@@ -1,0 +1,1 @@
+import{h as r}from"./index-CqW8rVi2.js";const c={list:async e=>r.get("/vehicles/",{params:e}),retrieve:async e=>r.get(`/vehicles/${e}/`),dropdown:async e=>r.get("/vehicles/dropdown/",{params:e}),create:async e=>r.post("/vehicles/",e),update:async(e,t)=>r.put(`/vehicles/${e}/`,t),remove:async e=>r.delete(`/vehicles/${e}/`)};export{c as v};
